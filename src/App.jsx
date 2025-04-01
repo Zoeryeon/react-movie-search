@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 
 // ?파라메터 = 값$파라메터 = 값
 // 쿼리스트링을 통해 서버로 테이터 전송, get방식으로 데이터 요청 시 사용
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=ae1c830e';
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=ae1c830e';
 
 export default function App() {
   const [movies, setMovies] = useState([]);
